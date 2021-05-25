@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/my-anime/static/js/app.a8aba116.chunk.js",
-    "app.js.map": "/my-anime/static/js/app.a8aba116.chunk.js.map",
+    "app.js": "/my-anime/static/js/app.242610d2.chunk.js",
+    "app.js.map": "/my-anime/static/js/app.242610d2.chunk.js.map",
     "runtime~app.js": "/my-anime/static/js/runtime~app.158b7101.js",
     "runtime~app.js.map": "/my-anime/static/js/runtime~app.158b7101.js.map",
     "static/js/2.e8d52860.chunk.js": "/my-anime/static/js/2.e8d52860.chunk.js",
@@ -29,6 +29,6 @@
   "entrypoints": [
     "static/js/runtime~app.158b7101.js",
     "static/js/2.e8d52860.chunk.js",
-    "static/js/app.a8aba116.chunk.js"
+    "static/js/app.242610d2.chunk.js"
   ]
 }
