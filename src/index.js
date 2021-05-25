@@ -59,22 +59,22 @@ export default function Main() {
   let theme = isThemeDark ? CombinedDarkTheme : CombinedDefaultTheme;
 
   const linking = {
-    prefixes: [prefix, 'https://gallant4473.github.io'],
+    prefixes: [prefix, 'https://my-anime.netlify.app'],
     config: {
       screens: {
         Main: {
           screens: {
             Dashboard: {
               screens: {
-                Latest: 'my-anime/latest',
-                Genre: 'my-anime/genre',
-                Search: 'my-anime/search'
+                Latest: 'latest',
+                Genre: 'genre',
+                Search: 'search'
               }
             },
-            Detail: 'my-anime/detail/:id',
+            Detail: 'detail/:id',
           }
         },
-        Episode: 'my-anime/episode/:id/:episode'
+        Episode: 'episode/:id/:episode'
       }
     }
   };
