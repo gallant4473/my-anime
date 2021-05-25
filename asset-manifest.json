@@ -1,0 +1,34 @@
+{
+  "files": {
+    "app.js": "/my-anime/static/js/app.93aa2107.chunk.js",
+    "app.js.map": "/my-anime/static/js/app.93aa2107.chunk.js.map",
+    "runtime~app.js": "/my-anime/static/js/runtime~app.158b7101.js",
+    "runtime~app.js.map": "/my-anime/static/js/runtime~app.158b7101.js.map",
+    "static/js/2.e8d52860.chunk.js": "/my-anime/static/js/2.e8d52860.chunk.js",
+    "static/js/2.e8d52860.chunk.js.map": "/my-anime/static/js/2.e8d52860.chunk.js.map",
+    "fonts/AntDesign.ttf": "/my-anime/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/my-anime/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/my-anime/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/my-anime/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/my-anime/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/my-anime/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/my-anime/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/my-anime/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/my-anime/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/my-anime/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/my-anime/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/my-anime/./fonts/SimpleLineIcons.ttf",
+    "favicon-16.png": "/my-anime/favicon-16.png",
+    "favicon-32.png": "/my-anime/favicon-32.png",
+    "favicon.ico": "/my-anime/favicon.ico",
+    "index.html": "/my-anime/index.html",
+    "manifest.json": "/my-anime/manifest.json",
+    "serve.json": "/my-anime/serve.json",
+    "static/js/2.e8d52860.chunk.js.LICENSE.txt": "/my-anime/static/js/2.e8d52860.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.158b7101.js",
+    "static/js/2.e8d52860.chunk.js",
+    "static/js/app.93aa2107.chunk.js"
+  ]
+}
