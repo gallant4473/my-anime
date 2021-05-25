@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { View, StyleSheet, Dimensions, ScrollView, Image } from 'react-native';
+import { View, StyleSheet, Dimensions, ScrollView, Image, Platform } from 'react-native';
 import { Caption, Subheading, Paragraph, Chip, Button } from 'react-native-paper'
 import Loader from '../../components/Loader';
 import { GlobalContext } from '../../context/GlobalContext';
@@ -25,7 +25,7 @@ function Detail({ route, navigation }) {
   const { data, loading, error } = state
   const { height, width } = Dimensions.get("window")
   return (
-    <ScrollView contentContainerStyle={style.scrollContainer}>
+    <ScrollView style={Platform.OS === 'web' ? { height: height - 60 } : {}} contentContainerStyle={style.scrollContainer}>
       <View style={style.container} >
         <Loader loading={loading} error={error}>
           <Image resizeMode={width > height ? "contain" : "cover"} style={{ height: height / 2 }} source={{ uri: data.image }} />
@@ -44,7 +44,7 @@ function Detail({ route, navigation }) {
             ) : null}
             {data.totalepisode && parseInt(data.totalepisode) ? (
               <View style={style.episodeContainer} >
-                {Array.from({ length: parseInt(data.totalepisode) }).map((item, i) => (
+                {[...Array(parseInt(data.totalepisode)).keys()].map((item, i) => (
                   <Button onPress={() => onPressEpisode(i + 1)} labelStyle={style.episodeText} style={style.episode} key={i} mode={episode === i + 1 ? "contained" : "outlined"}>EP-{i + 1}</Button>
                 ))}
               </View>
@@ -91,6 +91,7 @@ const style = StyleSheet.create({
   episodeContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
     flexWrap: 'wrap',
     marginVertical: 10
   },
