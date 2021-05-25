@@ -57,7 +57,7 @@ function Genre({ navigation }) {
     <View style={style.container}>
       <Card style={style.cardContainer} >
         <Card.Content style={style.cardContent} >
-          <Chip>{genreType.current.toUpperCase()}</Chip>
+          <Chip textStyle={style.tag} >{genreType.current.toUpperCase()}</Chip>
           <IconButton disabled={type.loading} icon="filter" size={25} onPress={onOpen} />
         </Card.Content>
       </Card>
@@ -101,6 +101,9 @@ const style = StyleSheet.create({
   typeContainer: {
     flex: 1,
     padding: 15
+  },
+  tag: {
+    fontSize: 11
   }
 });
 

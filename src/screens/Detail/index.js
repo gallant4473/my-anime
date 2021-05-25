@@ -91,7 +91,6 @@ const style = StyleSheet.create({
   episodeContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'center',
     flexWrap: 'wrap',
     marginVertical: 10
   },

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { FlatList, StyleSheet, TouchableOpacity, Dimensions, Platform } from 'react-native'
+import { FlatList, StyleSheet, TouchableOpacity, Dimensions } from 'react-native'
 import Empty from '../../components/Empty'
 import ListItem from '../../components/ListItem'
 
@@ -25,7 +25,7 @@ export default function AnimeList({ data, loadMoreRows, onRefresh, id, navigatio
       data={data}
       numColumns={4}
       renderItem={({ item }) => (
-        <TouchableOpacity style={styles.card} onPressIn={() => Platform.OS === 'web' ? onPress(item) : null} onPress={() => Platform.OS !== 'web' ? onPress(item) : null} >
+        <TouchableOpacity style={styles.card} onPress={() => onPress(item)} >
           <ListItem data={item} />
         </TouchableOpacity>
       )}
