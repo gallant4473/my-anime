@@ -8,7 +8,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "deploy": "gh-pages -d web-build",
-    "predeploy": "expo build:web"
+    "predeploy": "expo build:web",
+    "web:build": "expo build:web"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",

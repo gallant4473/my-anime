@@ -59,7 +59,7 @@ export default function Main() {
   let theme = isThemeDark ? CombinedDarkTheme : CombinedDefaultTheme;
 
   const linking = {
-    prefixes: [prefix],
+    prefixes: [prefix, 'https://gallant4473.github.io'],
     config: {
       screens: {
         Main: {
