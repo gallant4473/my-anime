@@ -66,15 +66,15 @@ export default function Main() {
           screens: {
             Dashboard: {
               screens: {
-                Latest: 'latest',
-                Genre: 'genre',
-                Search: 'search'
+                Latest: 'my-anime/latest',
+                Genre: 'my-anime/genre',
+                Search: 'my-anime/search'
               }
             },
-            Detail: 'detail/:id',
+            Detail: 'my-anime/detail/:id',
           }
         },
-        Episode: 'episode/:id/:episode'
+        Episode: 'my-anime/episode/:id/:episode'
       }
     }
   };
